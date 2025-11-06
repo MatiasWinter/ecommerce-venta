@@ -54,7 +54,7 @@ public class VentaServiceImpl implements VentaService{
 
         log.info("Venta guardada con exito, procedemos a guardar el detalle de la venta con id {}", ventaGuardada.getIdVenta());
         crearVentaDetalle(ventaRequestDto, ventaGuardada);
-        
+
         return ventaResponseDto;
     }
 
