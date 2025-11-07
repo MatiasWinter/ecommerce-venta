@@ -35,4 +35,7 @@ public class ProductoEntity {
 
     @Column(name = "stock", nullable = false)
     private Integer stock;
+
+    @Column(name = "estado", length = 20)
+    private String estado;
 }

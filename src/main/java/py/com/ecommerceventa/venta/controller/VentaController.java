@@ -45,7 +45,6 @@ public class VentaController {
             content = @Content(schema = @Schema(implementation = Object.class))
     )
 
-    // 4. Mapeo del cuerpo de la petición (opcional, pero detallado)
     @io.swagger.v3.oas.annotations.parameters.RequestBody(
             description = "Detalles de la compra: ID del cliente y la lista de productos con cantidad y precio unitario.",
             required = true,
