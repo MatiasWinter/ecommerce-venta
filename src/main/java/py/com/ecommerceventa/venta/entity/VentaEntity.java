@@ -42,4 +42,7 @@ public class VentaEntity {
     @OneToMany(mappedBy = "venta", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<VentaDetalleEntity> detalles = new ArrayList<>();
 
+    @Column(name = "estado", length = 20)
+    private String estado;
+
 }
