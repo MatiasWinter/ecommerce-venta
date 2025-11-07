@@ -24,9 +24,13 @@ Este es un proyecto con fines educativos, está abierto para el uso de todo púb
 
 ## Para levantar el proyecto es necesario que tengas 
 -Java 21
+
 -Maven 3.9+
+
 -PostgreSQL en ejecución
+
 -RabbitMQ (Docker)
+
 
 
 ## Comando para levantar el contenedor de Rabbit en Docker
